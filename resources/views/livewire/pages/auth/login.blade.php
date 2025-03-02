@@ -68,9 +68,6 @@ $login = function () {
     </form>
 
     <div class="mt-6 flex flex-col space-y-4">
-        <a href="{{ route('auth-provider', ['provider' => 'google']) }}" class="flex items-center justify-center w-full px-4 py-2 bg-red-500 text-white font-semibold rounded-md shadow-md hover:bg-red-600">
-            {{ __('Login with Google') }}
-        </a>
         <a href="{{ route('auth-provider', ['provider' => 'github']) }}" class="flex items-center justify-center w-full px-4 py-2 bg-gray-900 text-white font-semibold rounded-md shadow-md hover:bg-gray-800">
             {{ __('Login with GitHub') }}
         </a>
